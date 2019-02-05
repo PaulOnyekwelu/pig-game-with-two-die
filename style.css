@@ -169,11 +169,11 @@ i {
 #target {
     position: absolute;
     width: 200px;
-    left: 50%;
+    left: 65%;
     top: 550px;
-    transform: translateX(-50%);
+    transform: translateX(-65%);
     color: rgb(129, 16, 16);
-    background: none;
+    
     border: none;
     font-family: Lato;
     font-size: 20px;
@@ -182,4 +182,20 @@ i {
     font-weight: 300;
     transition: background-color 0.3s, color 0.3s;
 
+}
+#target_label {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    top: 550px;
+    transform: translateX(-50%);
+    color: rgb(129, 16, 16);
+    
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
 }
